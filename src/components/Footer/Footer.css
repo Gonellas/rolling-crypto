@@ -1,0 +1,19 @@
+.footer-style{
+  
+    background-color: var(--raisin-black);
+    color: var(--lavender-gray);
+}
+
+.footer-link-style{
+    color: var(--lavender-gray);
+    text-decoration: none;
+}
+
+.footer-title{
+    color: var(--fern-green);
+}
+
+.logo2{
+    display: flex;
+    justify-content: center;
+}
