@@ -45,7 +45,9 @@ const CryptoDetail = ({ contract_name }) => {
                       alt={element.contract_name}
                     />
                   </Col>
-                  <h2 className="price">PRICE: {element.quote_rate} USD</h2>
+                  <h2 className="price">
+                    PRICE: {parseFloat(element.quote_rate).toFixed(2)} USD
+                  </h2>
                   <Col></Col>
                 </Row>
                 <Row className="row2">
@@ -53,19 +55,23 @@ const CryptoDetail = ({ contract_name }) => {
                     <h2>PRICE VOLATILITY</h2>
                   </Col>
                   <Col>
-                    <h3>2 Hours: {element.stddev_2h}</h3>
+                    <h3>2 Hours: {parseFloat(element.stddev_2h).toFixed(2)}</h3>
                   </Col>
                   <Col>
-                    <h3>4 Hours: {element.stddev_4h}</h3>
+                    <h3>4 Hours: {parseFloat(element.stddev_4h).toFixed(2)}</h3>
                   </Col>
                   <Col>
-                    <h3>8 Hours: {element.stddev_8h}</h3>
+                    <h3>8 Hours: {parseFloat(element.stddev_8h).toFixed(2)}</h3>
                   </Col>
                   <Col>
-                    <h3>16 Hours: {element.stddev_16h}</h3>
+                    <h3>
+                      16 Hours: {parseFloat(element.stddev_16h).toFixed(2)}
+                    </h3>
                   </Col>
                   <Col>
-                    <h3>24 Hours: {element.stddev_24h}</h3>
+                    <h3>
+                      24 Hours: {parseFloat(element.stddev_24h).toFixed(2)}
+                    </h3>
                   </Col>
                 </Row>
               </>
