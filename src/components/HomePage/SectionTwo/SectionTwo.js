@@ -25,7 +25,6 @@ const SectionTwo = () => {
 
     <section className="st-style">
       <>
-
         {loading
           ? "Cargando"
           : datos.map((element, index) => {
