@@ -7,3 +7,6 @@ Endpoints used in Priciping Endpoints:
 Install modules:
 
 npm install
+
+## Deploy
+https://rolling-crypto-gonellas.vercel.app/
